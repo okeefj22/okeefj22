@@ -1,0 +1,77 @@
+# General Settings
+name: Jacob O'Keeffe
+job_title: Software Developer
+email: jacob.okeeffe22@mail.dcu.ie
+description: Final year Computer Applications and Software Engineering student in Dublin City University (DCU).
+avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdbAAAAJGNhZTI1NjY1LTY2YTEtNDQxNi04YmEwLTRlMTNkZDZkMTdiMA.jpg
+favicon: /favicon.ico
+twitter_handler:
+analytics_code: UA-60839707-2
+disqus:
+
+# Social Accounts
+social_networks:
+-  { name: facebook, url: '' }
+-  { name: twitter, url: '' }
+-  { name: instagram, url: '' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: 'https://www.linkedin.com/in/jacob-o-keeffe-69a737bb' }
+-  { name: skype, url: '' }
+-  { name: github, url: 'https://github.com/okeefj22' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+-  { name: dribbble, url: '' }
+-  { name: behance, url: '' }
+-  { name: pinterest, url: '' }
+-  { name: tumblr, url: '' }
+-  { name: youtube, url: '' }
+-  { name: vimeo, url: '' }
+-  { name: vine, url: '' }
+-  { name: 500px, url: '' }
+-  { name: flickr, url: '' }
+-  { name: spotify, url: '' }
+-  { name: steam, url: '' }
+-  { name: wordpress, url: '' }
+-  { name: xing, url: '' }
+
+# Modules Settings
+show_categories: 1
+show_tags: 1
+show_mood: 0
+show_email: 1
+show_rss: 1
+show_comments: 0
+show_menu: 0
+fixed_sidebar: 0
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "false"
+
+# Serving
+url: ""
+baseurl: ""
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+permalink: /:categories/:title.html
+category_dir: categories
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Conversion
+markdown: kramdown
+
+# Assets Settings
+sass:
+  sass_dir: assets/partials
+  style: compressed
