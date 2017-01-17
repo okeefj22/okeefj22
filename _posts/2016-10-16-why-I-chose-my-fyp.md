@@ -2,7 +2,7 @@
 layout: post
 date: 2016-10-16 12:40
 title: "Why I chose my final year project"
-description: Basic information about the Steve.
+description:
 comments: false
 category:
 - uni
@@ -14,7 +14,6 @@ tags:
 - Seneca
 ---
 
-### Why develop a Serverless Microservices Platform?
 I recently completed a six month internship as a full stack Javascript developer
 within a large company. Two months into my internship, my team made the decision
 to transition to a microservice architecture. At the time, I was involved with
